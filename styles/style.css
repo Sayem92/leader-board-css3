@@ -4,6 +4,37 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #E5E5E5;
+    width: 1440px;
+    height: 1290px;
+}
+nav{
+    background-color: #562EFF;
+    width: 1440px;
+    height: 94px;
+    display: flex;
+   align-items: center;
+  justify-content: space-around;
+
+}
+.nav-img1 img{
+    width: 40px;
+    height: 51px;
+}
+.nav-img2 img{
+    width: 51px;
+    height: 51px;
+   
+}
+nav a{
+    text-decoration: none;
+    width: 48px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.nav-text{
+    align-items: center;
+    justify-content: center;
 }
 
 /* top players styles */
@@ -89,13 +120,21 @@ hr{
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 24px;
 }
-/* .course{
-    box box-shadow: ;
-    border-radius: ;
-} */
+ .course{
+    width: 245px;
+    height: 269px;
+   box-shadow: 0 0 1px lightgray;
+   border: none;
+   border-radius: 10px;
+   padding: 15px 15px;
+   background-color: whitesmoke;
+} 
 .course .course-banner img{
     width: 224px;
 height: 104px;
+}
+.course-author{
+    color: #ED6B4F;
 }
 .course-info{
     display: flex;
@@ -103,7 +142,11 @@ height: 104px;
     justify-content: space-between;
 }
 .fa-star{
-    font-size: 12px;
+    font-size: 12px;   
+}
+.course-info span{
+    padding-left: 10px;
+    color: #A2A2A2;
 }
 .fa-star.filled{
     color: #FFC014;
@@ -112,9 +155,19 @@ height: 104px;
     color: #AEAEAE;
 }
 .course-duration{
-    background: #FFE4E8;
+    width: 95px;
+    height: 22px;
+    background: #FEE5DF;
     border-radius: 14px;
-    color: #FF4A60;
+    color: #ED6B4F;
+    font-family: 'Open Sans';
+   font-weight: 600;
+   padding-top: 7px;
+   padding-left: 6px;
+
+}
+.fa-clock{
+ padding-right: 10px;
 }
 /*----------------------------
      media quary 
